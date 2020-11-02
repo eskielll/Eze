@@ -23,6 +23,7 @@ SOFTWARE.
 """
 
 #Agregado de codigo 1Nov20
+#2da linea | Agregado de codigo 1Nov20
 
 
 import requests
@@ -40,3 +41,5 @@ print(response.text)
 deck = response.json()
 deck_id = deck['deck_id']
 print(deck_id)
+
+#Agregado al final
