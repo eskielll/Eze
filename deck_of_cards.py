@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """Shuffle six decks of cards using the Deck of Cards API
 
-Copyright (c) 2018 Cisco and/or its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,6 +22,7 @@ SOFTWARE.
 """
 
 #Agregado de codigo 1Nov20
+#2da linea | Agregado de codigo 1Nov20
 
 
 import requests
@@ -40,3 +40,5 @@ print(response.text)
 deck = response.json()
 deck_id = deck['deck_id']
 print(deck_id)
+
+#Agregado al final
